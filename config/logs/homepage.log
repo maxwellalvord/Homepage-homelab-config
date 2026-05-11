@@ -1,0 +1,944 @@
+[2026-05-10T23:53:48.724Z] info: kubernetes.yaml was copied to the config folder
+[2026-05-10T23:55:00.474Z] info: docker.yaml was copied to the config folder
+[2026-05-10T23:55:00.474Z] info: services.yaml was copied to the config folder
+[2026-05-10T23:55:00.475Z] info: bookmarks.yaml was copied to the config folder
+[2026-05-10T23:55:00.475Z] info: proxmox.yaml was copied to the config folder
+[2026-05-10T23:55:00.478Z] info: widgets.yaml was copied to the config folder
+[2026-05-10T23:55:00.482Z] info: custom.css was copied to the config folder
+[2026-05-10T23:55:00.483Z] info: custom.js was copied to the config folder
+[2026-05-11T00:02:18.567Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-11T00:02:18.812Z] error: <httpProxy> Error calling http://192.168.0.111:8053/...
+[2026-05-11T00:02:18.818Z] error: <httpProxy> [
+  500,
+  Error: Parse Error: Data after `Connection: close`
+      at ignore-listed frames {
+    bytesParsed: 597,
+    code: 'HPE_CLOSED_CONNECTION',
+    reason: 'Data after `Connection: close`',
+    rawPacket: <Buffer 48 54 54 50 2f 31 2e 31 20 34 30 33 20 46 6f 72 62 69 64 64 65 6e 0d 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6e 6f 2d 63 61 63 68 65 2c 20 6e ... 4854 more bytes>
+  }
+]
+[2026-05-11T00:02:23.268Z] error: <httpProxy> Error calling http://192.168.0.111:8053/...
+[2026-05-11T00:02:23.270Z] error: <httpProxy> [
+  500,
+  Error: Parse Error: Data after `Connection: close`
+      at ignore-listed frames {
+    bytesParsed: 597,
+    code: 'HPE_CLOSED_CONNECTION',
+    reason: 'Data after `Connection: close`',
+    rawPacket: <Buffer 48 54 54 50 2f 31 2e 31 20 34 30 33 20 46 6f 72 62 69 64 64 65 6e 0d 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6e 6f 2d 63 61 63 68 65 2c 20 6e ... 4854 more bytes>
+  }
+]
+[2026-05-11T00:02:35.593Z] error: <httpProxy> Error calling http://192.168.0.111:8053/...
+[2026-05-11T00:02:35.594Z] error: <httpProxy> [
+  500,
+  Error: Parse Error: Data after `Connection: close`
+      at ignore-listed frames {
+    bytesParsed: 149,
+    code: 'HPE_CLOSED_CONNECTION',
+    reason: 'Data after `Connection: close`',
+    rawPacket: <Buffer 52 65 66 65 72 72 65 72 2d 50 6f 6c 69 63 79 3a 20 73 74 72 69 63 74 2d 6f 72 69 67 69 6e 2d 77 68 65 6e 2d 63 72 6f 73 73 2d 6f 72 69 67 69 6e 0d 0a ... 4406 more bytes>
+  }
+]
+[2026-05-11T00:04:32.918Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T00:04:32.921Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T00:04:32.924Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T00:04:32.925Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T00:04:32.926Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T00:04:32.926Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T00:04:37.012Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T00:04:37.013Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T00:04:37.015Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T00:04:37.015Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T00:04:37.018Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T00:04:37.018Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T00:06:48.084Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T00:06:48.086Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T00:06:48.088Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T00:06:48.088Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T00:06:48.089Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T00:06:48.090Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T00:06:52.181Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T00:06:52.182Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T00:06:52.184Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T00:06:52.185Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T00:06:52.186Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T00:06:52.186Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T00:07:06.884Z] error: <httpProxy> Error calling http://192.168.0.111:8053/...
+[2026-05-11T00:07:06.886Z] error: <httpProxy> [
+  500,
+  Error: Parse Error: Data after `Connection: close`
+      at ignore-listed frames {
+    bytesParsed: 597,
+    code: 'HPE_CLOSED_CONNECTION',
+    reason: 'Data after `Connection: close`',
+    rawPacket: <Buffer 48 54 54 50 2f 31 2e 31 20 34 30 33 20 46 6f 72 62 69 64 64 65 6e 0d 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6e 6f 2d 63 61 63 68 65 2c 20 6e ... 4854 more bytes>
+  }
+]
+[2026-05-11T00:09:21.684Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T00:09:21.685Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T00:09:21.688Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T00:09:21.688Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T00:09:21.690Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T00:09:21.691Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T00:11:36.853Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T00:11:36.855Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T00:11:36.857Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T00:11:36.858Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T00:11:36.859Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T00:11:36.860Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T00:32:20.031Z] error: <httpProxy> Error calling http://192.168.0.111:8053/...
+[2026-05-11T00:32:20.032Z] error: <httpProxy> [
+  500,
+  Error: Parse Error: Data after `Connection: close`
+      at ignore-listed frames {
+    bytesParsed: 597,
+    code: 'HPE_CLOSED_CONNECTION',
+    reason: 'Data after `Connection: close`',
+    rawPacket: <Buffer 48 54 54 50 2f 31 2e 31 20 34 30 33 20 46 6f 72 62 69 64 64 65 6e 0d 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6e 6f 2d 63 61 63 68 65 2c 20 6e ... 4854 more bytes>
+  }
+]
+[2026-05-11T00:33:00.142Z] error: <httpProxy> Error calling http://192.168.0.111:8053/...
+[2026-05-11T00:33:00.143Z] error: <httpProxy> [
+  500,
+  Error: Parse Error: Data after `Connection: close`
+      at ignore-listed frames {
+    bytesParsed: 597,
+    code: 'HPE_CLOSED_CONNECTION',
+    reason: 'Data after `Connection: close`',
+    rawPacket: <Buffer 48 54 54 50 2f 31 2e 31 20 34 30 33 20 46 6f 72 62 69 64 64 65 6e 0d 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6e 6f 2d 63 61 63 68 65 2c 20 6e ... 4854 more bytes>
+  }
+]
+[2026-05-11T00:34:35.156Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T00:34:35.157Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T00:34:35.160Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T00:34:35.160Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T00:34:35.161Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T00:34:35.161Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T00:36:50.325Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T00:36:50.326Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T00:36:50.328Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T00:36:50.329Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T00:36:50.329Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T00:36:50.329Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T01:02:04.794Z] error: (node:1) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2026-05-11T01:02:04.802Z] error: <httpProxy> Error calling http://192.168.0.111:8053/...
+[2026-05-11T01:02:04.806Z] error: <httpProxy> [
+  500,
+  Error: Parse Error: Data after `Connection: close`
+      at ignore-listed frames {
+    bytesParsed: 597,
+    code: 'HPE_CLOSED_CONNECTION',
+    reason: 'Data after `Connection: close`',
+    rawPacket: <Buffer 48 54 54 50 2f 31 2e 31 20 34 30 33 20 46 6f 72 62 69 64 64 65 6e 0d 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6e 6f 2d 63 61 63 68 65 2c 20 6e ... 4854 more bytes>
+  }
+]
+[2026-05-11T01:02:04.916Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-11T01:02:05.188Z] error: <httpProxy> Error calling http://192.168.0.111:8053/...
+[2026-05-11T01:02:05.190Z] error: <httpProxy> [
+  500,
+  Error: Parse Error: Data after `Connection: close`
+      at ignore-listed frames {
+    bytesParsed: 597,
+    code: 'HPE_CLOSED_CONNECTION',
+    reason: 'Data after `Connection: close`',
+    rawPacket: <Buffer 48 54 54 50 2f 31 2e 31 20 34 30 33 20 46 6f 72 62 69 64 64 65 6e 0d 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6e 6f 2d 63 61 63 68 65 2c 20 6e ... 4854 more bytes>
+  }
+]
+[2026-05-11T01:02:11.265Z] error: <httpProxy> Error calling http://192.168.0.111:8053/...
+[2026-05-11T01:02:11.267Z] error: <httpProxy> [
+  500,
+  Error: Parse Error: Data after `Connection: close`
+      at ignore-listed frames {
+    bytesParsed: 597,
+    code: 'HPE_CLOSED_CONNECTION',
+    reason: 'Data after `Connection: close`',
+    rawPacket: <Buffer 48 54 54 50 2f 31 2e 31 20 34 30 33 20 46 6f 72 62 69 64 64 65 6e 0d 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6e 6f 2d 63 61 63 68 65 2c 20 6e ... 4854 more bytes>
+  }
+]
+[2026-05-11T01:04:18.965Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T01:04:18.968Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T01:04:18.970Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T01:04:18.970Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T01:04:18.970Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T01:04:18.971Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T01:04:18.971Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T01:04:18.972Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T01:04:18.973Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T01:04:18.974Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T01:04:18.974Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T01:04:18.974Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T01:04:25.108Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T01:04:25.109Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T01:04:25.110Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T01:04:25.111Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T01:04:25.113Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T01:04:25.113Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T01:06:34.132Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T01:06:34.133Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T01:06:34.134Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T01:06:34.135Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T01:06:34.136Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T01:06:34.136Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T01:06:34.137Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T01:06:34.137Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T01:06:34.137Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T01:06:34.138Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T01:06:34.138Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T01:06:34.138Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T01:06:40.276Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T01:06:40.278Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T01:06:40.279Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T01:06:40.280Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T01:06:40.281Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T01:06:40.281Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T01:07:21.236Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T01:07:21.237Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T01:07:21.239Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T01:07:21.240Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T01:07:21.241Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T01:07:21.241Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T01:07:27.379Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T01:07:27.380Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T01:07:27.380Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T01:07:27.381Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T01:07:27.382Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T01:07:27.382Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T01:09:36.404Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T01:09:36.406Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T01:09:36.407Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T01:09:36.408Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T01:09:36.409Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T01:09:36.410Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T01:09:42.548Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T01:09:42.549Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T01:09:42.550Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T01:09:42.550Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T01:09:42.551Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T01:09:42.552Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T01:12:40.724Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T01:12:40.725Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T01:12:40.728Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T01:12:40.729Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T01:12:40.730Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T01:12:40.730Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T01:14:55.892Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T01:14:55.893Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T01:14:55.894Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T01:14:55.895Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T01:14:55.895Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T01:14:55.896Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T01:37:37.817Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T01:37:37.819Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T01:37:37.822Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T01:37:37.822Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T01:37:37.823Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T01:37:37.823Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T01:39:52.981Z] error: <httpProxy> Error calling https://homelab.tail5068b.ts.net/...
+[2026-05-11T01:39:52.982Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.121.72.72:443
+      at <unknown> (Error: connect ETIMEDOUT 100.121.72.72:443) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.121.72.72',
+    port: 443
+  }
+]
+[2026-05-11T01:39:52.983Z] error: <httpProxy> Error calling http://192.168.0.111:8096/...
+[2026-05-11T01:39:52.983Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T01:39:52.984Z] error: <httpProxy> Error calling https://192.168.0.111:9090/...
+[2026-05-11T01:39:52.985Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:9090
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:9090) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9090
+  }
+]
+[2026-05-11T04:45:40.540Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.6464462280273438e-05}
+[2026-05-11T04:45:40.738Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.8133392333984375e-05}
+[2026-05-11T04:45:42.311Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":3.2186508178710938e-05}
+[2026-05-11T04:45:47.016Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":3.337860107421875e-05}
+[2026-05-11T04:46:08.619Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":3.2663345336914062e-05}
+[2026-05-11T04:46:31.104Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.574920654296875e-05}
+[2026-05-11T04:46:31.240Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":4.0292739868164062e-05}
+[2026-05-11T04:46:32.932Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":3.5047531127929688e-05}
+[2026-05-11T04:47:26.007Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.574920654296875e-05}
+[2026-05-11T04:47:26.156Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":3.4809112548828125e-05}
+[2026-05-11T04:47:26.721Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":3.7670135498046875e-05}
+[2026-05-11T04:48:36.993Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.5033950805664062e-05}
+[2026-05-11T04:48:39.568Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.5987625122070312e-05}
+[2026-05-11T04:48:41.529Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.3365020751953125e-05}
+[2026-05-11T04:50:20.624Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":4.9829483032226562e-05}
+[2026-05-11T04:50:20.820Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.4557113647460938e-05}
+[2026-05-11T04:53:17.558Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.6702880859375e-05}
+[2026-05-11T04:56:00.180Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.384185791015625e-05}
+[2026-05-11T04:56:00.428Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.7894973754882812e-05}
+[2026-05-11T04:58:04.227Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":4.00543212890625e-05}
+[2026-05-11T04:58:33.506Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.8848648071289062e-05}
+[2026-05-11T04:58:34.611Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.765655517578125e-05}
+[2026-05-11T04:58:36.245Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.6941299438476562e-05}
+[2026-05-11T04:59:00.554Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.9325485229492188e-05}
+[2026-05-11T05:05:34.509Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":3.4570693969726562e-05}
+[2026-05-11T05:05:34.712Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.6464462280273438e-05}
+[2026-05-11T05:06:43.297Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.574920654296875e-05}
+[2026-05-11T05:25:28.386Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.4557113647460938e-05}
+[2026-05-11T05:25:28.609Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":3.0040740966796875e-05}
+[2026-05-11T05:25:30.436Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":2.574920654296875e-05}
+[2026-05-11T05:29:23.849Z] error: <piholeProxyHandler> Error calling Pi-Hole API: 401. Data: {"error":{"key":"unauthorized","message":"Unauthorized","hint":null},"took":3.7670135498046875e-05}
+[2026-05-11T05:30:36.039Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-05-11T05:30:36.046Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-11T05:30:36.311Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-05-11T05:30:37.548Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-05-11T05:30:38.070Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-05-11T05:30:38.638Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-05-11T05:30:39.021Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-05-11T05:30:39.450Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-05-11T05:30:39.822Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-05-11T05:31:10.584Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
