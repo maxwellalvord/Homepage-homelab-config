@@ -29,12 +29,28 @@
         icon: jellyfin.png
         href: http://192.168.0.111:8096
         description: Movies & TV
+        widget:
+            type: jellyfin
+            url: http://192.168.0.111:8096
+            key: "{{HOMEPAGE_VAR_JELLYFIN_KEY}}"
+            version: 2 # optional, default is 1
+            enableBlocks: true # optional, defaults to false
+            enableNowPlaying: true # optional, defaults to true
+            enableUser: true # optional, defaults to false
+            enableMediaControl: true # optional, defaults to true
+            showEpisodeNumber: true # optional, defaults to false
+            expandOneStreamToTwoRows: false # optional, defaults to true
 
     - Immich:
         icon: immich.png
         href: http://192.168.0.111:2283
         description: Photo & video backup
         siteMonitor: http://192.168.0.111:2283
+        widget:
+            type: immich
+            url: http://192.168.0.111:2283
+            key: "{{HOMEPAGE_VAR_IMMICH_KEY}}"
+            version: 2 # optional, default is 1
 
 - Productivity:
     - Nextcloud:

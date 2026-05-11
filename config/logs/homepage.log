@@ -942,3 +942,308 @@
 [2026-05-11T05:30:39.450Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
 [2026-05-11T05:30:39.822Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
 [2026-05-11T05:31:10.584Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-05-11T06:02:31.196Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.0.111:2283/api/server/statistics
+[2026-05-11T06:03:25.676Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.0.111:2283/api/server/statistics
+[2026-05-11T06:03:27.302Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.0.111:2283/api/server/statistics
+[2026-05-11T06:15:45.997Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-11T06:22:54.206Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-11T06:24:04.630Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Sessions...
+[2026-05-11T06:24:04.635Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:24:04.635Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Sessions
+[2026-05-11T06:24:04.635Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Items/Counts...
+[2026-05-11T06:24:04.636Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:24:04.636Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Items/Counts
+[2026-05-11T06:24:06.677Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Items/Counts...
+[2026-05-11T06:24:06.677Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:24:06.678Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Items/Counts
+[2026-05-11T06:24:06.678Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Sessions...
+[2026-05-11T06:24:06.678Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:24:06.678Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Sessions
+[2026-05-11T06:25:08.117Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Items/Counts...
+[2026-05-11T06:25:08.119Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:25:08.120Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Items/Counts
+[2026-05-11T06:25:08.121Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Sessions...
+[2026-05-11T06:25:08.122Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:25:08.122Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Sessions
+[2026-05-11T06:25:20.405Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Items/Counts...
+[2026-05-11T06:25:20.406Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:25:20.407Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Items/Counts
+[2026-05-11T06:25:20.409Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Sessions...
+[2026-05-11T06:25:20.409Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:25:20.410Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Sessions
+[2026-05-11T06:27:39.671Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Sessions...
+[2026-05-11T06:27:39.673Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:27:39.673Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Sessions
+[2026-05-11T06:27:41.716Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Items/Counts...
+[2026-05-11T06:27:41.718Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:27:41.718Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Items/Counts
+[2026-05-11T06:27:41.720Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Sessions...
+[2026-05-11T06:27:41.721Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:27:41.721Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Sessions
+[2026-05-11T06:27:41.722Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Items/Counts...
+[2026-05-11T06:27:41.722Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:27:41.722Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Items/Counts
+[2026-05-11T06:27:43.765Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Items/Counts...
+[2026-05-11T06:27:43.768Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:27:43.769Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Items/Counts
+[2026-05-11T06:27:43.770Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Sessions...
+[2026-05-11T06:27:43.771Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:27:43.771Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Sessions
+[2026-05-11T06:30:03.029Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Sessions...
+[2026-05-11T06:30:03.031Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:30:03.031Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Sessions
+[2026-05-11T06:32:26.391Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Sessions...
+[2026-05-11T06:32:26.398Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:32:26.398Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Sessions
+[2026-05-11T06:32:26.398Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Items/Counts...
+[2026-05-11T06:32:26.399Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:32:26.399Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Items/Counts
+[2026-05-11T06:32:28.436Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Items/Counts...
+[2026-05-11T06:32:28.437Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:32:28.438Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Items/Counts
+[2026-05-11T06:32:28.439Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Sessions...
+[2026-05-11T06:32:28.440Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:32:28.440Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Sessions
+[2026-05-11T06:36:58.773Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Sessions...
+[2026-05-11T06:36:58.776Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:36:58.776Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Sessions
+[2026-05-11T06:36:58.777Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Items/Counts...
+[2026-05-11T06:36:58.778Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:36:58.778Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Items/Counts
+[2026-05-11T06:37:00.820Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Items/Counts...
+[2026-05-11T06:37:00.821Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:37:00.821Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Items/Counts
+[2026-05-11T06:37:00.822Z] error: <httpProxy> Error calling http://192.168.0.111:8096/Sessions...
+[2026-05-11T06:37:00.823Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 192.168.0.111:8096
+      at <unknown> (Error: connect ETIMEDOUT 192.168.0.111:8096) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 8096
+  }
+]
+[2026-05-11T06:37:00.823Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Sessions
+[2026-05-11T06:47:16.986Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
