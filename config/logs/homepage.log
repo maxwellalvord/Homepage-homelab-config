@@ -1247,3 +1247,242 @@
 ]
 [2026-05-11T06:37:00.823Z] error: <jellyfinProxyHandler> HTTP Error 500 calling http://192.168.0.111:8096/Sessions
 [2026-05-11T06:47:16.986Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-11T06:52:17.251Z] error: <servicesProxy> YAMLException: bad indentation of a mapping entry (66:18)
+
+ 63 |   url: https://nextcloud.host.or.ip:port
+ 64 |   key: token
+ 65 | 
+ 66 |     - Vaultwarden:
+-----------------------^
+ 67 |         icon: vaultwarden.png
+ 68 |         href: https://homelab.tail5068b.ts.net
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2278:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2721:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2784:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2810:19)
+    at s (/app/.next/server/chunks/3801.js:1:12555)
+[2026-05-11T06:52:17.347Z] error: bad indentation of a mapping entry (66:18)
+
+ 63 |   url: https://nextcloud.host.or.ip:port
+ 64 |   key: token
+ 65 | 
+ 66 |     - Vaultwarden:
+-----------------------^
+ 67 |         icon: vaultwarden.png
+ 68 |         href: https://homelab.tail5068b.ts.net
+[2026-05-11T06:52:17.347Z] error: bad indentation of a mapping entry (66:18)
+
+ 63 |   url: https://nextcloud.host.or.ip:port
+ 64 |   key: token
+ 65 | 
+ 66 |     - Vaultwarden:
+-----------------------^
+ 67 |         icon: vaultwarden.png
+ 68 |         href: https://homelab.tail5068b.ts.net
+[2026-05-11T06:52:17.434Z] error: bad indentation of a mapping entry (66:18)
+
+ 63 |   url: https://nextcloud.host.or.ip:port
+ 64 |   key: token
+ 65 | 
+ 66 |     - Vaultwarden:
+-----------------------^
+ 67 |         icon: vaultwarden.png
+ 68 |         href: https://homelab.tail5068b.ts.net
+[2026-05-11T06:52:18.593Z] error: <servicesProxy> YAMLException: bad indentation of a mapping entry (66:18)
+
+ 63 |   url: https://nextcloud.host.or.ip:port
+ 64 |   key: token
+ 65 | 
+ 66 |     - Vaultwarden:
+-----------------------^
+ 67 |         icon: vaultwarden.png
+ 68 |         href: https://homelab.tail5068b.ts.net
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2278:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2721:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2784:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2810:19)
+    at s (/app/.next/server/chunks/3801.js:1:12555)
+[2026-05-11T06:52:32.527Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T06:52:55.980Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T06:52:56.160Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T06:53:05.101Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T06:53:05.271Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T06:54:04.913Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T06:54:05.132Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T06:54:13.194Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T06:54:27.326Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:05:41.247Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:05:41.317Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-11T07:05:41.614Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:05:44.195Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:06:38.882Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:06:38.957Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-11T07:06:39.214Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:06:41.213Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:08:07.502Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:08:07.584Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-11T07:08:07.836Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:08:09.260Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:09:13.397Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://homelab:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:09:44.659Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:09:44.675Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-11T07:09:44.819Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:11:17.957Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:12:11.353Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:15:30.589Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:15:48.193Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:15:48.397Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:15:50.777Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:8081/ocs/v2.php/apps/serverinfo/api/v1/info?format=json
+[2026-05-11T07:20:29.446Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-11T07:22:40.239Z] error: <servicesProxy> YAMLException: bad indentation of a mapping entry (23:14)
+
+ 20 |   kubernetes: true # optional, defaults to false
+ 21 |   key: ptr_accesskeyaccesskeyaccesskeyaccesskey
+ 22 | 
+ 23 |     - Pi-hole:
+-------------------^
+ 24 |         icon: pi-hole.png
+ 25 |         href: http://192.168.0.111:8053/admin
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2278:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2721:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2784:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2810:19)
+    at s (/app/.next/server/chunks/3801.js:1:12555)
+[2026-05-11T07:22:57.100Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/kubernetes/1/applications/count
+[2026-05-11T07:22:57.104Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/kubernetes/1/services/count
+[2026-05-11T07:22:57.107Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/kubernetes/1/namespaces/count
+[2026-05-11T07:23:07.675Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/kubernetes/1/applications/count
+[2026-05-11T07:23:07.676Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/kubernetes/1/services/count
+[2026-05-11T07:23:07.682Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/kubernetes/1/namespaces/count
+[2026-05-11T07:23:37.085Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/kubernetes/1/applications/count
+[2026-05-11T07:23:37.085Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/kubernetes/1/services/count
+[2026-05-11T07:23:37.087Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/kubernetes/1/namespaces/count
+[2026-05-11T07:23:37.309Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/endpoints/1/docker/containers/json?all=1
+[2026-05-11T07:24:00.008Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/endpoints/1/docker/containers/json?all=1
+[2026-05-11T07:25:53.576Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/endpoints/1/docker/containers/json?all=1
+[2026-05-11T07:25:53.692Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-11T07:25:53.914Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/endpoints/1/docker/containers/json?all=1
+[2026-05-11T07:25:55.289Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/endpoints/1/docker/containers/json?all=1
+[2026-05-11T07:26:26.601Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/endpoints/1/docker/containers/json?all=1
+[2026-05-11T07:26:27.729Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/endpoints/1/docker/containers/json?all=1
+[2026-05-11T07:27:21.916Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/endpoints/1/docker/containers/json?all=1
+[2026-05-11T07:27:22.149Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://192.168.0.111:9443/api/endpoints/1/docker/containers/json?all=1
+[2026-05-11T07:29:17.671Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:9443/api/endpoints/1/docker/containers/json?all=1
+[2026-05-11T07:29:17.795Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-11T07:29:18.061Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:9443/api/endpoints/1/docker/containers/json?all=1
+[2026-05-11T07:29:19.237Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:9443/api/endpoints/1/docker/containers/json?all=1
+[2026-05-11T07:29:19.905Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:9443/api/endpoints/1/docker/containers/json?all=1
+[2026-05-11T07:33:43.733Z] error: <httpProxy> Error calling http://192.168.0.111:9000/api/endpoints/1/docker/containers/json...
+[2026-05-11T07:33:43.736Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.0.111:9000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.0.111:9000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9000
+  }
+]
+[2026-05-11T07:33:43.736Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.111:9000/api/endpoints/1/docker/containers/json?all=1
+[2026-05-11T07:33:43.982Z] error: <httpProxy> Error calling http://192.168.0.111:9000/api/endpoints/1/docker/containers/json...
+[2026-05-11T07:33:43.983Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.0.111:9000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.0.111:9000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9000
+  }
+]
+[2026-05-11T07:33:43.983Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.111:9000/api/endpoints/1/docker/containers/json?all=1
+[2026-05-11T07:36:22.747Z] error: <httpProxy> Error calling http://192.168.0.111:9000/api/endpoints/3/docker/containers/json...
+[2026-05-11T07:36:22.750Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.0.111:9000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.0.111:9000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9000
+  }
+]
+[2026-05-11T07:36:22.750Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.111:9000/api/endpoints/3/docker/containers/json?all=1
+[2026-05-11T07:36:22.874Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-11T07:36:23.127Z] error: <httpProxy> Error calling http://192.168.0.111:9000/api/endpoints/3/docker/containers/json...
+[2026-05-11T07:36:23.128Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.0.111:9000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.0.111:9000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9000
+  }
+]
+[2026-05-11T07:36:23.129Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.111:9000/api/endpoints/3/docker/containers/json?all=1
+[2026-05-11T07:36:29.714Z] error: <httpProxy> Error calling http://192.168.0.111:9000/api/endpoints/3/docker/containers/json...
+[2026-05-11T07:36:29.714Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.0.111:9000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.0.111:9000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9000
+  }
+]
+[2026-05-11T07:36:29.714Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.111:9000/api/endpoints/3/docker/containers/json?all=1
+[2026-05-11T07:36:31.316Z] error: <httpProxy> Error calling http://192.168.0.111:9000/api/endpoints/3/docker/containers/json...
+[2026-05-11T07:36:31.316Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.0.111:9000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.0.111:9000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9000
+  }
+]
+[2026-05-11T07:36:31.316Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.111:9000/api/endpoints/3/docker/containers/json?all=1
+[2026-05-11T07:37:08.562Z] error: <httpProxy> Error calling http://192.168.0.111:9000/api/endpoints/3/docker/containers/json...
+[2026-05-11T07:37:08.563Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.0.111:9000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.0.111:9000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.0.111',
+    port: 9000
+  }
+]
+[2026-05-11T07:37:08.563Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.111:9000/api/endpoints/3/docker/containers/json?all=1
+[2026-05-11T07:38:10.786Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:9443/api/endpoints/3/docker/containers/json?all=1
+[2026-05-11T07:38:10.872Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-11T07:38:11.009Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:9443/api/endpoints/3/docker/containers/json?all=1
+[2026-05-11T07:38:12.698Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:9443/api/endpoints/3/docker/containers/json?all=1
+[2026-05-11T07:38:13.920Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:9443/api/endpoints/3/docker/containers/json?all=1
+[2026-05-11T07:39:22.787Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:9443/api/endpoints/3/docker/containers/json?all=1
+[2026-05-11T07:39:22.963Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:9443/api/endpoints/3/docker/containers/json?all=1

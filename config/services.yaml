@@ -13,6 +13,12 @@
         href: https://192.168.0.111:9443
         description: Docker container management
         siteMonitor: https://192.168.0.111:9443
+        widget:
+            type: portainer
+            url: https://192.168.0.111:9443
+            env: 3
+            kubernetes: false # optional, defaults to false
+            key: "{{HOMEPAGE_VAR_PORTAINER_KEY}}"
 
     - Pi-hole:
         icon: pi-hole.png
@@ -55,9 +61,13 @@
 - Productivity:
     - Nextcloud:
         icon: nextcloud.png
-        href: http://192.168.0.111:8081
+        href: http://homelab:8081
         description: File sync & cloud storage
         siteMonitor: http://192.168.0.111:8081
+        widget:
+            type: nextcloud
+            url: http://192.168.0.111:8081
+            key: "{{HOMEPAGE_VAR_NEXT_TOKEN}}"
 
     - Vaultwarden:
         icon: vaultwarden.png
