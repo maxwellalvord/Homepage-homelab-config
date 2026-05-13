@@ -1486,3 +1486,17 @@
 [2026-05-11T07:38:13.920Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:9443/api/endpoints/3/docker/containers/json?all=1
 [2026-05-11T07:39:22.787Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:9443/api/endpoints/3/docker/containers/json?all=1
 [2026-05-11T07:39:22.963Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.0.111:9443/api/endpoints/3/docker/containers/json?all=1
+[2026-05-12T08:02:58.129Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-13T04:37:06.450Z] error: <servicesProxy> TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at /app/.next/server/chunks/3801.js:1:12674
+    at Array.forEach (<anonymous>)
+    at /app/.next/server/chunks/3801.js:1:12649
+    at Array.map (<anonymous>)
+    at a (/app/.next/server/chunks/3801.js:1:12595)
+    at s (/app/.next/server/chunks/3801.js:1:12952)
+    at async w (/app/.next/server/chunks/3801.js:1:15105)
+    at async x (/app/.next/server/chunks/3801.js:1:15384)
+    at async l (/app/.next/server/pages/api/services/proxy.js:21:26258)
+[2026-05-13T04:37:11.471Z] warn: <service-helpers> Error parsing service "PlayIt" from config. Ensure required fields are present.
+[2026-05-13T04:37:11.473Z] warn: <service-helpers> Error parsing service "PlayIt" from config. Ensure required fields are present.

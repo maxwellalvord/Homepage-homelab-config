@@ -30,6 +30,16 @@
           version: 6   # use 5 if you're on Pi-hole v5
           key: "{{HOMEPAGE_VAR_PIHOLE_KEY}}"
 
+    - AMP:
+        icon: amp.png
+        href: http://192.168.0.111:8082
+        description: Minecraft server management
+
+    - PlayIt:
+        icon: playit-gg.png
+        href: https://dashboard.playit.gg
+        description: Tunneling service for remote access
+
 - Media:
     - Jellyfin:
         icon: jellyfin.png
